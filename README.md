@@ -111,6 +111,20 @@ The image text is now blue (`0000FF`).
 
 <img width="200" src="https://png.sealchop.com/?i=0000FF">
 
+### Combining parameters
+
+You can combine the parameters using the `&` (ampersand) between parameters
+
+For example:
+
+```bash
+https://png.sealchop.com/?i=0000FF&f=00FF00&b=FF00FF
+```
+
+You will get a resultant image similar to this:
+
+<img width="200" src="https://png.sealchop.com/?i=0000FF&f=00FF00&b=FF00FF">
+
 
 ## Version
 
