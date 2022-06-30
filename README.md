@@ -25,7 +25,7 @@ https://png.sealchop.com/?x=貝聿銘
 
 This will change the seal chop image into something similar to the image below:
 
-<img width="300" src="https://png.sealchop.com/?x=貝聿銘">
+<img width="200" src="https://png.sealchop.com/?x=貝聿銘">
 
 You can also use Korean characters. 
 
@@ -37,7 +37,7 @@ https://png.sealchop.com/?x=소정희
 
 The image becomes a Korean seal chop.
 
-<img width="300" src="https://png.sealchop.com/?x=소정희">
+<img width="200" src="https://png.sealchop.com/?x=소정희">
 
 At this time, you may enter 1, 2 or 3 characters for the Chinese or Korean seal chop name.
 
