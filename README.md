@@ -47,7 +47,7 @@ At this time, you may enter 1, 2 or 3 characters for the Chinese or Korean seal 
 
 The following is a synopsis of seal chop image API parameters:
 
-`--` | data type | notes
+`-` | data type | notes
 :---: | :---: | :---
 `x` | UTF-8 encoded Chinese or Korean character text | "xingming", the personal name. Non-Chinese or non-Korean characters are ignored
 `p` | 6-digit hexadecimal color text (hex triplet) | "paper", the color below the chop. Only valid hex colors are accepted. All other input ignored.
