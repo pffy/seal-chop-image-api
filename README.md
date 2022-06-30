@@ -15,7 +15,7 @@ You should see something similar to this:
 
 **This is the default seal chop image.** It appears when you type the base URL with no custom settings.
 
-THe dimensions of image are 1000 x 1000 pixels. The images in this tutorial have been resized for your convenience.
+The dimensions of the image are 1000 by 1000 pixels. The images in this tutorial have been scaled down for your convenience.
 
 You can make a custom chop by adding parameters to the base seal chop image URL.
 
