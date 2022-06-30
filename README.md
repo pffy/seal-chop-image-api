@@ -83,7 +83,7 @@ This is the most prominent color in the seal chop image.
 https://png.sealchop.com/?b=FF6600
 ```
 
-The image foreground is now a shade of orange (`FF6600`) and looks similar to the image below:
+The image background section is now a shade of orange (`FF6600`) and looks similar to the image below:
 
 <img width="200" src="https://png.sealchop.com/?b=FF6600">
 
