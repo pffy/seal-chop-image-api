@@ -47,11 +47,11 @@ At this time, you may enter 1, 2 or 3 characters for the Chinese or Korean seal 
 
 The following is a synopsis of seal chop image API parameters:
 
-parameter | name | data type | notes
-:---: | :---: | :---: | :---
-`x` | xingming | UTF-8 encoded Chinese or Korean character text | Non-Chinese or non-Korean characters are ignored
-`p` | paper | 6-digit hexadecimal color text (hex triplet) | Only valid hex colors are accepted. All other input ignored.
-`b` | background | 6-digit hexadecimal color text (hex triplet) | Only valid hex colors are accepted. All other input ignored.
-`f` | foreground | 6-digit hexadecimal color text (hex triplet) | Only valid hex colors are accepted. All other input ignored.
-`i` | ink | 6-digit hexadecimal color text (hex triplet) | Only valid hex colors are accepted. All other input ignored.
+`--` | data type | notes
+:---: | :---: | :---
+`x` | UTF-8 encoded Chinese or Korean character text | "xingming", the personal name. Non-Chinese or non-Korean characters are ignored
+`p` | 6-digit hexadecimal color text (hex triplet) | "paper", the color below the chop. Only valid hex colors are accepted. All other input ignored.
+`b` | 6-digit hexadecimal color text (hex triplet) | "background", the most prominent chop color. Only valid hex colors are accepted. All other input ignored.
+`f` | 6-digit hexadecimal color text (hex triplet) | "foreground", the text area for the ink. Only valid hex colors are accepted. All other input ignored.
+`i` | 6-digit hexadecimal color text (hex triplet) | "ink", the characters in the foreground. Only valid hex colors are accepted. All other input ignored.
 
