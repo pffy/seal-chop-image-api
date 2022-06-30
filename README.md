@@ -1,5 +1,5 @@
 
-# **SealChop.com** is a simple seal chop image Web API. You can create Chinese or Korean seal chops.
+# **SEALCHOP** is a simple seal chop image Web API. You can create Chinese or Korean seal chops.
 
 ### Quick Start
 
