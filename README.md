@@ -67,13 +67,6 @@ Now, this image blends with the black background:
 
 <img width="200" src="https://png.sealchop.com/?p=000000">
 
-You can also create a [`<picture>` HTML set][gh_picture_html] to allow both light color mode or dark color mode images to appear when appropriate:
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://png.sealchop.com/?p=000000">
-  <source media="(prefers-color-scheme: light)" srcset="https://png.sealchop.com/?p=FFFFFF">
-  <img width="200" src="https://png.sealchop.com/?p=FFFFFF">
-</picture>
 
 ### Background Color
 
@@ -136,5 +129,3 @@ The following is a synopsis of the seal chop image API parameters:
 `i` | 6-digit hexadecimal color text (hex triplet) | "ink", the characters in the foreground. Only valid hex colors are accepted. All other input ignored.
 
 
-
-[gh_picture_html]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#specifying-the-theme-an-image-is-shown-to
