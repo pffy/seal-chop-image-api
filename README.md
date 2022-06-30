@@ -19,6 +19,8 @@ The dimensions of the PNG image are 1000 by 1000 pixels. All the preview images 
 
 Making your own chop is easy! You can make a custom chop by adding parameters to the base seal chop image URL.
 
+### Chinese name chop
+
 For example, you can change the Chinese name by simply setting the `x` parameter as follows:
 
 ```bash
@@ -28,6 +30,8 @@ https://png.sealchop.com/?x=貝聿銘
 This will change the seal chop image into something similar to the image below:
 
 <img width="200" src="https://png.sealchop.com/?x=貝聿銘">
+
+### Korean name chop
 
 You can also use Korean characters to create Korean seal chops.
 
@@ -45,6 +49,76 @@ At this time, you may enter 1, 2 or 3 characters for the Chinese or Korean seal 
 
 > **NOTE**: Many operating systems require the addition of language keyboards or input method editors to enter Chinese or Korean characters.
 
+## Colors
+
+### Paper Color
+
+If you are viewing this documention in dark mode, you may have noticed that the four white corners of the seal chop image stand out against the black background. 
+
+To allow the chop to better blend with its context, the `p` (paper) parameter can be changed as follows:
+
+```bash
+https://png.sealchop.com/?p=000000
+```
+
+The color `000000` is black, as defined by the hex triplet (6-digit hexadecimal).
+
+Now, this image blends with the black background:
+
+<img width="200" src="https://png.sealchop.com/?p=000000">
+
+You can also create a [`<picture>` HTML set][gh_picture_html] to allow both light color mode or dark color mode images to appear when appropriate:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://png.sealchop.com/?p=000000">
+  <source media="(prefers-color-scheme: light)" srcset="https://png.sealchop.com/?p=FFFFFF">
+  <img width="200" src="https://png.sealchop.com/?p=FFFFFF">
+</picture>
+
+### Background Color
+
+This is the most prominent color in the seal chop image.
+
+```bash
+https://png.sealchop.com/?b=FF6600
+```
+
+The image foreground is now a shade of orange (`FF6600`) and looks similar to the image below:
+
+<img width="200" src="https://png.sealchop.com/?b=FF6600">
+
+
+### Foreground Color
+
+This color provides a text area for the Chinese or Korean text.
+
+You can change the foreground color using the `f` parameter:
+
+```bash
+https://png.sealchop.com/?f=FFFF00
+```
+
+The image foreground is now yellow (`FFFF00`) and looks similar to the image below:
+
+<img width="200" src="https://png.sealchop.com/?f=FFFF00">
+
+
+
+### Ink Color
+
+This is the color of the Chinese or Korean text.
+
+You can change the ink color using the `i` parameter:
+
+```bash
+https://png.sealchop.com/?i=0000FF
+```
+
+The image text is now blue (`0000FF`).
+
+<img width="200" src="https://png.sealchop.com/?i=0000FF">
+
+
 ## Version
 
 This is **Version 8** of the seal chop image API.
@@ -61,3 +135,6 @@ The following is a synopsis of the seal chop image API parameters:
 `f` | 6-digit hexadecimal color text (hex triplet) | "foreground", the text area for the ink. Only valid hex colors are accepted. All other input ignored.
 `i` | 6-digit hexadecimal color text (hex triplet) | "ink", the characters in the foreground. Only valid hex colors are accepted. All other input ignored.
 
+
+
+[gh_picture_html]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#specifying-the-theme-an-image-is-shown-to
