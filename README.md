@@ -15,9 +15,9 @@ You should see something similar to this:
 
 **This is the default seal chop image.** It appears when you type the base URL with no custom settings.
 
-The dimensions of the image are 1000 by 1000 pixels. The images in this tutorial have been scaled down for your convenience.
+The dimensions of the PNG image are 1000 by 1000 pixels. All the preview images in this tutorial have been scaled down in size for your convenience.
 
-You can make a custom chop by adding parameters to the base seal chop image URL.
+Making your own chop is easy! You can make a custom chop by adding parameters to the base seal chop image URL.
 
 For example, you can change the Chinese name by simply setting the `x` parameter as follows:
 
@@ -29,15 +29,15 @@ This will change the seal chop image into something similar to the image below:
 
 <img width="200" src="https://png.sealchop.com/?x=貝聿銘">
 
-You can also use Korean characters. 
+You can also use Korean characters to create Korean seal chops.
 
-For example, you can enter the following Korean name to change the image:
+For example, instead of entering a Chinese name, you can enter the following Korean name to change the image:
 
 ```bash
 https://png.sealchop.com/?x=소정희
 ```
 
-The image becomes a Korean seal chop.
+The image now becomes a Korean seal chop.
 
 <img width="200" src="https://png.sealchop.com/?x=소정희">
 
@@ -45,9 +45,13 @@ At this time, you may enter 1, 2 or 3 characters for the Chinese or Korean seal 
 
 > **NOTE**: Many operating systems require the addition of language keyboards or input method editors to enter Chinese or Korean characters.
 
+## Version
+
+This is **Version 8** of the seal chop image API.
+
 ## Synopsis
 
-The following is a synopsis of seal chop image API parameters:
+The following is a synopsis of the seal chop image API parameters:
 
 `-` | data type | notes
 :---: | :---: | :---
