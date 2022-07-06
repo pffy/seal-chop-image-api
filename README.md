@@ -1,5 +1,5 @@
 
-# **SEALCHOP** is a simple seal chop image Web API. You can create Chinese or Korean seal chops.
+# **SEALCHOP** is a simple Chinese seal chop image Web API. You can create Chinese or Korean seal chops.
 
 ### Quick Start
 
@@ -13,9 +13,9 @@ You should see something similar to this:
 
 <img width="200" src="https://png.sealchop.com/">
 
-**This is the default seal chop image.** It appears when you type the base URL with no custom settings.
+**This is the default Chinese seal chop image.** It appears when you type the base URL with no custom settings.
 
-The dimensions of the PNG image are 1000 by 1000 pixels. All the preview images in this tutorial have been scaled down in size for your convenience.
+The dimensions of the [PNG image][mdn_png] are 1000 by 1000 pixels. All the preview images in this tutorial have been scaled down in size for your convenience.
 
 Making your own chop is easy! You can make a custom chop by adding parameters to the base seal chop image URL.
 
@@ -125,6 +125,25 @@ You will get a resultant image similar to this:
 
 <img width="200" src="https://png.sealchop.com/?i=0000FF&f=00FF00&b=FF00FF">
 
+## Reference Modes
+
+Combinations of the Chinese seal chop image parameters provide different "style modes" for different practical uses. There are no special parameters for these modes. Instead, the description of these modes help organize functionality in various user experiences.
+
+### Block Mode
+
+**Block mode** defines when the condition the paper color (`p`), background color (`b`), and foreground color (`f`) are all the same in the Chinese seal chop image. This style mode is useful if you want to make single-character stickers or iPhone lockscreen wallpaper with one background color. The round edges of the background and foreground areas have disappeared, which makes the image look like a block.
+
+### Smooth Mode
+
+**Smooth mode** describes when the background color and the foreground color are exactly the same. The smoothness of the background area rounded corners are often contrasted by a white background.
+
+### Stamp Mode
+
+**Stamp mode** describes when the background color and the ink color are exactly the same, while the paper color and foreground color also match. The resulting image looks like someone pressed an ink pad before stamping the image on paper.
+
+
+## Themes
+  + Coming soon.
 
 ## Version
 
@@ -142,4 +161,4 @@ The following is a synopsis of the seal chop image API parameters:
 `f` | 6-digit hexadecimal color text (hex triplet) | "foreground", the text area for the ink. Only valid hex colors are accepted. All other input ignored.
 `i` | 6-digit hexadecimal color text (hex triplet) | "ink", the characters in the foreground. Only valid hex colors are accepted. All other input ignored.
 
-
+[mdn_png]: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#png_portable_network_graphics
