@@ -1,7 +1,7 @@
 
 # **SEALCHOP** is a simple Chinese seal chop image Web API. You can create Chinese or Korean seal chops.
 
-> **NOTE:** This guide is for developers using the API to build software. If you simply want a chop, you can use the [Chinese Seal CHop Generator][web_chop].
+> **NOTE:** This guide is for developers using the API to build software. If you simply want a colorful, custom seal chop, you can use the [Chinese Seal Chop Generator][web_chop].
 
 ### Quick Start
 
@@ -142,7 +142,6 @@ Combinations of the Chinese seal chop image parameters provide different "style 
 ### Stamp Mode
 
 **Stamp mode** describes when the background color and the ink color are exactly the same, while the paper color and foreground color also match. The resulting image looks like someone pressed an ink pad before stamping the image on paper.
-
 
 ## Themes
   + Coming soon.
