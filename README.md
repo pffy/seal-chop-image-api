@@ -148,6 +148,10 @@ Combinations of the Chinese seal chop image parameters provide different "style 
 
 ## Plays well with others
 
+### MOO
+
+Add a Chinese seal chop to business cards or stationery.
+
 ### Sticker Mule
 
 In [Sticker Mule Studio][web_mule], you can upload the saved PNG seal chop image from your desktop or online photo library.
