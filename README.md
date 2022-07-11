@@ -146,6 +146,22 @@ Combinations of the Chinese seal chop image parameters provide different "style 
 ## Themes
   + Coming soon.
 
+## Plays well with others
+
+### Sticker Mule
+
+In [Sticker Mule Studio][web_mule], you can upload the saved PNG seal chop image from your desktop or online photo library.
+
+### Google Workspaces
+
+Supported apps:
+  + Google Docs
+  + Google Sheets
+  + Google Slides
+  + Google Forms
+  + Google Jamboard
+
+
 ## Version
 
 This is **Version 8** of the seal chop image API.
@@ -164,3 +180,4 @@ The following is a synopsis of the seal chop image API parameters:
 
 [mdn_png]: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#png_portable_network_graphics
 [web_chop]: https://create.sealchop.com
+[web_mule]: https://www.stickermule.com/studio
