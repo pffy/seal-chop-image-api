@@ -150,7 +150,7 @@ Combinations of the Chinese seal chop image parameters provide different "style 
 
 ### MOO
 
-Add a Chinese seal chop to business cards or stationery.
+Add a Chinese seal chop to business cards or [stationery][web_moo].
 
 ### Sticker Mule
 
@@ -185,3 +185,4 @@ The following is a synopsis of the seal chop image API parameters:
 [mdn_png]: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#png_portable_network_graphics
 [web_chop]: https://create.sealchop.com
 [web_mule]: https://www.stickermule.com/studio
+[web_moo]: https://www.moo.com/us/stationery
