@@ -183,6 +183,6 @@ The following is a synopsis of the seal chop image API parameters:
 `i` | 6-digit hexadecimal color text (hex triplet) | "ink", the characters in the foreground. Only valid hex colors are accepted. All other input ignored.
 
 [mdn_png]: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#png_portable_network_graphics
-[web_chop]: https://create.sealchop.com
+[web_chop]: https://chinese.sealchop.com
 [web_mule]: https://www.stickermule.com/studio
 [web_moo]: https://www.moo.com/us/stationery
