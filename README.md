@@ -1,7 +1,7 @@
 
 # **SEALCHOP** is a simple Chinese seal chop image Web API. You can create Chinese or Korean seal chops.
 
-> **NOTE:** This guide is for developers using the API to build software. If you simply want a colorful, custom seal chop, you can use the [Chinese Seal Chop Generator][web_chop].
+> **NOTE:** This guide is for developers using the API to build software. If you simply want a colorful, custom seal chop, you can use the [Chinese Seal Chop Generator][web_chop]. If you want to try the beta version with the Save to Google Drive button, visit the [Chinese Seal Chop BETA][web_beta].
 
 ### Quick Start
 
@@ -182,6 +182,7 @@ The following is a synopsis of the seal chop image API parameters:
 `f` | 6-digit hexadecimal color text (hex triplet) | "foreground", the text area for the ink. Only valid hex colors are accepted. All other input ignored.
 `i` | 6-digit hexadecimal color text (hex triplet) | "ink", the characters in the foreground. Only valid hex colors are accepted. All other input ignored.
 
+[web_beta]: https://beta.sealchop.com/generator/index.html
 [mdn_png]: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#png_portable_network_graphics
 [web_chop]: https://chinese.sealchop.com
 [web_mule]: https://www.stickermule.com/studio
