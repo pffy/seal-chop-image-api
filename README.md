@@ -8,12 +8,12 @@
 To get started, you can simply type the following URL into your browser:
 
 ```bash
-https://png.sealchop.com/
+https://new.sealchop.com/
 ```
 
 You should see something similar to this:
 
-<img width="200" src="https://png.sealchop.com/">
+<img width="200" src="https://new.sealchop.com/">
 
 **This is the default Chinese seal chop image.** It appears when you type the base URL with no custom settings.
 
@@ -26,12 +26,12 @@ Making your own chop is easy! You can make a custom chop by adding parameters to
 For example, you can change the Chinese name by simply setting the `x` parameter as follows:
 
 ```bash
-https://png.sealchop.com/?x=貝聿銘
+https://new.sealchop.com/?x=貝聿銘
 ```
 
 This will change the seal chop image into something similar to the image below:
 
-<img width="200" src="https://png.sealchop.com/?x=貝聿銘">
+<img width="200" src="https://new.sealchop.com/?x=貝聿銘">
 
 ### Korean name chop
 
@@ -40,12 +40,12 @@ You can also use Korean characters to create Korean seal chops.
 For example, instead of entering a Chinese name, you can enter the following Korean name to change the image:
 
 ```bash
-https://png.sealchop.com/?x=소정희
+https://new.sealchop.com/?x=소정희
 ```
 
 The image now becomes a Korean seal chop.
 
-<img width="200" src="https://png.sealchop.com/?x=소정희">
+<img width="200" src="https://new.sealchop.com/?x=소정희">
 
 At this time, you may enter 1, 2 or 3 characters for the Chinese or Korean seal chop name.
 
@@ -60,14 +60,14 @@ If you are viewing this documention in dark mode, you may have noticed that the 
 To allow the chop to better blend with its context, the `p` (paper) parameter can be changed as follows:
 
 ```bash
-https://png.sealchop.com/?p=000000
+https://new.sealchop.com/?p=000000
 ```
 
 The color `000000` is black, as defined by the hex triplet (6-digit hexadecimal).
 
 Now, this image blends with the black background:
 
-<img width="200" src="https://png.sealchop.com/?p=000000">
+<img width="200" src="https://new.sealchop.com/?p=000000">
 
 
 ### Background Color
@@ -75,12 +75,12 @@ Now, this image blends with the black background:
 This is the most prominent color in the seal chop image.
 
 ```bash
-https://png.sealchop.com/?b=FF6600
+https://new.sealchop.com/?b=FF6600
 ```
 
 The image background section is now a shade of orange (`FF6600`) and looks similar to the image below:
 
-<img width="200" src="https://png.sealchop.com/?b=FF6600">
+<img width="200" src="https://new.sealchop.com/?b=FF6600">
 
 
 ### Foreground Color
@@ -90,12 +90,12 @@ This color provides a text area for the Chinese or Korean text.
 You can change the foreground color using the `f` parameter:
 
 ```bash
-https://png.sealchop.com/?f=FFFF00
+https://new.sealchop.com/?f=FFFF00
 ```
 
 The image foreground is now yellow (`FFFF00`) and looks similar to the image below:
 
-<img width="200" src="https://png.sealchop.com/?f=FFFF00">
+<img width="200" src="https://new.sealchop.com/?f=FFFF00">
 
 
 
@@ -106,12 +106,12 @@ This is the color of the Chinese or Korean text.
 You can change the ink color using the `i` parameter:
 
 ```bash
-https://png.sealchop.com/?i=0000FF
+https://new.sealchop.com/?i=0000FF
 ```
 
 The image text is now blue (`0000FF`).
 
-<img width="200" src="https://png.sealchop.com/?i=0000FF">
+<img width="200" src="https://new.sealchop.com/?i=0000FF">
 
 ### Combining parameters
 
@@ -120,12 +120,12 @@ You can combine the parameters using the `&` (ampersand) between parameters
 For example:
 
 ```bash
-https://png.sealchop.com/?i=0000FF&f=00FF00&b=FF00FF
+https://new.sealchop.com/?i=0000FF&f=00FF00&b=FF00FF
 ```
 
 You will get a resultant image similar to this:
 
-<img width="200" src="https://png.sealchop.com/?i=0000FF&f=00FF00&b=FF00FF">
+<img width="200" src="https://new.sealchop.com/?i=0000FF&f=00FF00&b=FF00FF">
 
 ## Reference Modes
 
@@ -182,8 +182,8 @@ The following is a synopsis of the seal chop image API parameters:
 `f` | 6-digit hexadecimal color text (hex triplet) | "foreground", the text area for the ink. Only valid hex colors are accepted. All other input ignored.
 `i` | 6-digit hexadecimal color text (hex triplet) | "ink", the characters in the foreground. Only valid hex colors are accepted. All other input ignored.
 
-[web_beta]: https://beta.sealchop.com/generator/index.html
+[web_beta]: https://new.sealchop.com/generator/index.html
 [mdn_png]: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#png_portable_network_graphics
-[web_chop]: https://chinese.sealchop.com
+[web_chop]: https://new.sealchop.com
 [web_mule]: https://www.stickermule.com/studio
 [web_moo]: https://www.moo.com/us/stationery
